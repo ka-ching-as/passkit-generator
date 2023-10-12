@@ -1,4 +1,4 @@
-import Joi from "joi";
+import * as Joi from "joi";
 /**
  * @see https://developer.apple.com/documentation/walletpasses/pass/nfc
  */

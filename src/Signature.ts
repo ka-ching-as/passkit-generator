@@ -1,4 +1,4 @@
-import forge from "node-forge";
+import * as forge from "node-forge";
 import type * as Schemas from "./schemas";
 import { Buffer } from "buffer";
 

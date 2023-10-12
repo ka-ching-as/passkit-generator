@@ -1,6 +1,6 @@
 import { Stream } from "stream";
 import { Buffer } from "buffer";
-import path from "path";
+import * as path from "path";
 import FieldsArray from "./FieldsArray";
 import Bundle, { filesSymbol } from "./Bundle";
 import getModelFolderContents from "./getModelFolderContents";

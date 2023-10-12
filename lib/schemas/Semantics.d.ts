@@ -1,4 +1,4 @@
-import Joi from "joi";
+import * as Joi from "joi";
 /**
  * For a better description of every single field,
  * please refer to Apple official documentation.

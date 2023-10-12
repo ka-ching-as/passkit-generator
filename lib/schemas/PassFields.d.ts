@@ -1,4 +1,4 @@
-import Joi from "joi";
+import * as Joi from "joi";
 import { Field, FieldWithRow } from "./Field";
 export type TransitType = "PKTransitTypeAir" | "PKTransitTypeBoat" | "PKTransitTypeBus" | "PKTransitTypeGeneric" | "PKTransitTypeTrain";
 export declare const TransitType: Joi.StringSchema;

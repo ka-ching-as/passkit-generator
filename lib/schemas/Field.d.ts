@@ -1,4 +1,4 @@
-import Joi from "joi";
+import * as Joi from "joi";
 import { Semantics } from "./Semantics";
 export type PKDataDetectorType = "PKDataDetectorTypePhoneNumber" | "PKDataDetectorTypeLink" | "PKDataDetectorTypeAddress" | "PKDataDetectorTypeCalendarEvent";
 export type PKTextAlignmentType = "PKTextAlignmentLeft" | "PKTextAlignmentCenter" | "PKTextAlignmentRight" | "PKTextAlignmentNatural";
