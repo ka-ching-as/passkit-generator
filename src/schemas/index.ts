@@ -8,7 +8,7 @@ export * from "./PassFields";
 export * from "./Personalize";
 export * from "./Certificates";
 
-import Joi from "joi";
+import * as Joi from "joi";
 import { Buffer } from "buffer";
 
 import { Barcode } from "./Barcode";
